@@ -15,10 +15,10 @@ public class Controller {
     public ArrayList<String> index() {
         ArrayList<String> cmds = new ArrayList<>();
         cmds.add("URLs:");
-        cmds.add("add_item&item=x");
-        cmds.add("set_stock&item=x&level=0");
-        cmds.add("add_stock&item=x&level=0");
-        cmds.add("remove_stock&item=x&level=0");
+        cmds.add("add_item?item=x");
+        cmds.add("set_stock?item=x?level=0");
+        cmds.add("add_stock?item=x?level=0");
+        cmds.add("remove_stock?item=x?level=0");
         cmds.add("list_stock");
         return cmds;
     }
